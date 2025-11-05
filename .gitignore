@@ -1,0 +1,79 @@
+# Large model files
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.pb
+*.weights
+*.h5
+
+# Training outputs and logs
+runs/
+logs/
+wandb/
+tensorboard/
+*.log
+
+# Dataset directories
+train/
+valid/
+val/
+test/
+data/
+datasets/
+*.zip
+*.tar.gz
+*.tar
+
+# Large image/video files (keep small demo images if needed)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Keep small demo/config files
+!README.md
+!RUN.md
+!requirements.txt
+!data.yaml
+!diagram.json
+!arduino_code.ino
+!*.md
+!*.json
+!*.yaml
+!*.yml
+!*.ino
+
